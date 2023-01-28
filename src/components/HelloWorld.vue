@@ -34,6 +34,10 @@ const count = ref(0)
 </template>
 
 <style scoped>
+.card {
+  background-image: url(@/assets/vue.svg);
+}
+
 .read-the-docs {
   color: #888;
 }
